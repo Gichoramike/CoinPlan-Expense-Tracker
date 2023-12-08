@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/green">
+
+
+        <View
+            android:id="@+id/top_navigat"
+            android:layout_width="375dp"
+            android:layout_height="64dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="44dp" />
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="@color/green"
+            android:foreground="@drawable/magicons_glyph_arrow_arrow_left"
+            android:foregroundTint="@color/white" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="247dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/back_button"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center_horizontal|center_vertical"
+            android:text=" Add Income"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/how_much_"
+            android:layout_width="120dp"
+            android:layout_height="22dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="167dp"
+            android:alpha="0.64"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="top"
+            android:text="How much?"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ksh"
+            android:layout_width="120dp"
+            android:layout_height="78dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="230dp"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="top"
+            android:text="Ksh"
+            android:textColor="#FCFCFC"
+            android:textSize="50sp" />
+
+        <EditText
+            android:id="@+id/ksh_Amount"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="230dp"
+            android:layout_toRightOf="@id/ksh"
+            android:background="@null"
+            android:fontFamily="@font/inter_bold"
+            android:hint="0"
+            android:textColor="#FCFCFC"
+            android:textSize="50sp"
+            android:gravity="center_vertical"/>
+
+        <View
+            android:id="@+id/input_field"
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="450dp"
+            android:background="@drawable/input_field"
+            android:backgroundTint="@color/grey"
+            android:elevation="4dp" />
+
+
+
+        <EditText
+            android:id="@+id/categories"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="455dp"
+            android:background="@android:color/transparent"
+            android:elevation="4dp"
+            android:fontFamily="@font/inter"
+            android:gravity="center_vertical"
+            android:hint="Categories"
+            android:lineSpacingExtra="-1sp" />
+
+        <RelativeLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/frame" />
+
+        <View
+            android:id="@+id/description_field"
+            android:layout_width="343dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/input_field"
+            android:backgroundTint="@color/grey"
+            android:elevation="4dp" />
+
+
+        <EditText
+            android:id="@+id/description_input"
+            android:layout_width="250dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="535dp"
+            android:background="@android:color/transparent"
+            android:elevation="4dp"
+            android:fontFamily="@font/inter"
+            android:gravity="center_vertical"
+            android:hint="Description"
+            android:lineSpacingExtra="-1sp" />
+
+        <Button
+            android:id="@+id/btnaddincome"
+            android:layout_width="250dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="610dp"
+            android:background="@drawable/button_larg"
+            android:fontFamily="@font/inter_medium"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Add Income"
+            android:textColor="@color/white" />
+
+
+
+</RelativeLayout>

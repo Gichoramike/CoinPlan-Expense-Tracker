@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "5182690324",
+    "project_id": "coinplan-c4191",
+    "storage_bucket": "coinplan-c4191.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5182690324:android:2b267560fa3063948f0301",
+        "android_client_info": {
+          "package_name": "com.example.coinplan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzrQMFTnVAlsgKBwKSRYrp3s7wKZ_veQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

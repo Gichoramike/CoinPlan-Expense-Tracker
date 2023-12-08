@@ -1,0 +1,27 @@
+<!-- res/layout/update_expense_dialog.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/updatedCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Category"/>
+
+    <EditText
+        android:id="@+id/updatedDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Description"/>
+
+    <EditText
+        android:id="@+id/updatedAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Updated Amount"
+        />
+
+</LinearLayout>

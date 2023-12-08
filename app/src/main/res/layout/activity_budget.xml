@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/purple">
+
+
+    <View
+        android:id="@+id/top_navigat"
+        android:layout_width="375dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="45dp"
+        android:backgroundTint="@color/purple"
+        android:foreground="@drawable/magicons_glyph_arrow_arrow_left"
+        android:foregroundTint="@color/white" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="247dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@+id/back_button"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text=" Set Budget"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/how_much_"
+        android:layout_width="280dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="220dp"
+        android:alpha="0.64"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:text="what's your Goal ?"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ksh"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="Ksh"
+        android:textColor="#FCFCFC"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/budget_Amount"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_toRightOf="@id/ksh"
+        android:background="@null"
+        android:fontFamily="@font/inter_bold"
+        android:hint="0"
+        android:textColor="#FCFCFC"
+        android:textSize="35sp"
+        android:gravity="center_vertical"/>
+
+
+    <View
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/frame" />
+
+    <TextView
+        android:id="@+id/budget_txt"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="450dp"
+        android:alpha="0.64"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="top"
+        android:text="what's your budget Limit?"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/ksh1"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/inter_bold"
+        android:gravity="center"
+        android:text="Ksh"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/budget_Limit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="470dp"
+        android:layout_toRightOf="@id/ksh"
+        android:background="@null"
+        android:fontFamily="@font/inter_bold"
+        android:hint="0"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/btnbudgetlimit"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="570dp"
+        android:background="@drawable/button_larg"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Set Budget Limit"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/btnbudget"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/button_larg"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Set Budget"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/amount_txt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_navigat"
+        android:layout_marginLeft="20dp"
+        android:text="Goal Amount"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_bold"/>
+
+    <TextView
+        android:id="@+id/amount_budget"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/amount_txt"
+        android:layout_marginLeft="20dp"
+        android:text="Ksh 0"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter"/>
+
+
+    <TextView
+        android:id="@+id/limit_txt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_navigat"
+        android:layout_toRightOf="@+id/amount_txt"
+        android:layout_marginLeft="25dp"
+        android:text="Budget Limit"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter_bold"/>
+
+    <TextView
+        android:id="@+id/limit_budget"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/limit_txt"
+        android:layout_toRightOf="@+id/amount_txt"
+        android:layout_marginLeft="25dp"
+        android:text="Ksh 0"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/inter"/>
+
+
+</RelativeLayout>
